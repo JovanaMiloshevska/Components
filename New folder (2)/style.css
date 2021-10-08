@@ -32,10 +32,6 @@
   color: white;
 }
 
-.box {
-  width: 180px;
-  height: 160px;
-}
 .box1 {
   width: 200px;
   height: 160px;
@@ -162,8 +158,23 @@
   font-family: verdana;
   color: #fff;
   opacity: 0.7;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .ribbon span:hover {
   object-fit: cover;
   opacity: 0.5;
+}
+
+.bi-arrow-right {
+  color: #ffffff;
+}
+.bi-arrow-left {
+  color: #ffffff;
+}
+.button {
+  opacity: 0.7;
+  background: black;
+  border-radius: 10px;
 }
