@@ -68,7 +68,9 @@
   text-decoration: none;
   color: black;
 }
-.jm-featured-collection-product-title:hover {
-  font-size: larger;
+.jm-featured-collection-links:hover {
   color: red;
+}
+.jm-featured-collection-product-title:hover {
+  font-size: 35px;
 }
