@@ -1,0 +1,111 @@
+.jm-about-us-content {
+  padding-top: 150px;
+}
+.jm-about-us-header {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 200px;
+  font-size: 70px;
+}
+
+.jm-about-us-div-photo {
+  position: relative;
+  height: 400px;
+}
+.jm-about-us-photo {
+  width: 400px;
+  max-width: auto;
+  height: 400px;
+  background-image: url(imgs/photo-1441986300917-64674bd600d8.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  left: 15%;
+}
+.jm-about-us-colored-div {
+  width: 400px;
+  max-width: auto;
+  height: 400px;
+  background-color: teal;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  z-index: -2;
+}
+@media screen and (max-width: 768px) {
+  .jm-about-us-photo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-44%, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  .jm-about-us-colored-div {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-59%, -50%);
+  }
+}
+.jm-about-us-div-paragraph {
+  text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+  .jm-about-us-photo {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .jm-about-us-colored-div {
+    width: 300px;
+    height: 300px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .jm-about-us-photo {
+    width: 265px;
+    height: 265px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .jm-about-us-colored-div {
+    width: 265px;
+    height: 265px;
+  }
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.jm-about-us-counter-div {
+  width: 150px;
+  height: 150px;
+  display: block;
+  background: teal;
+  text-align: center;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.jm-about-us-counter-div p {
+  margin: 5px 0 0;
+  padding: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.counter {
+  display: block;
+  font-size: 32px;
+  font-weight: 700;
+  color: white;
+  line-height: 28px;
+}
