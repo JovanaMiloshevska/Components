@@ -1,16 +1,26 @@
-var counters = document.getElementsByClassName("counter");
+const counters = document.querySelectorAll('.counter');
+const speed = 200;
 
-for (var i = 0; i < counters.length; i++) {
-    handleCounter (counters[i]);
-}
+counters.forEach(counter => {
+    const updateCount = () => {
+        const target = +counter.getAttribute('data-target');
+        const count = +counter.innerText 
+        
+        const inc = (target / speed);
+        console.log(count);
 
-function handleCounter (counter) {
-  var c = 0;
-  var interval = setInterval(() => {
-    if(c==counter.dataset.count) {
-       clearInterval(interval);
+        if(count < target){
+            counter.innerText = Math.ceil(count +  inc);
+            setTimeout(updateCount, 100); 
+
+        }
+        else{
+            counter.innerText 
+        }
+
     }
-    counter.innerText = c;
-    c++;
-  }, 0.5);
-}
+    updateCount(); 
+    
+});
+
+
