@@ -35,6 +35,16 @@
   top: -15%;
   z-index: -2;
 }
+.jm-about-us-colored-div-right {
+  width: 400px;
+  max-width: auto;
+  height: 400px;
+  background-color: teal;
+  border-radius: 50%;
+  position: absolute;
+  top: -15%;
+  z-index: -2;
+}
 @media screen and (max-width: 768px) {
   .jm-about-us-photo {
     position: absolute;
