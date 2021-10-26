@@ -1,6 +1,12 @@
 .jm-contact-page {
   padding-top: 200px;
 }
+.jm-contact-us-page {
+  background-color: lightgray;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 5px;
+}
 .jm-site-btn {
   width: 120px;
   height: 45px;
@@ -9,6 +15,9 @@
   border: none;
   padding-left: 0%;
   text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 .jm-input-item {
   height: 45px;
@@ -16,6 +25,9 @@
   padding-left: 20px;
   font-size: 17px;
   color: #888;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 .jm-contact-us-form textarea {
   border: 2px solid #888;
@@ -23,13 +35,21 @@
   padding-top: 12px;
   font-size: 17px;
   color: #888;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  outline: none;
 }
 .bi-person-lines-fill {
   top: 30px;
   right: 10px;
   color: #888;
 }
+.jm-contact-us-photo-div {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
 .jm-contact-us-photo {
   max-width: 100%;
   height: auto;
+  vertical-align: middle;
+  border-radius: 5px;
 }
