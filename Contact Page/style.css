@@ -1,6 +1,3 @@
-.jm-contact-page {
-  padding-top: 200px;
-}
 .jm-contact-us-page {
   background-color: lightgray;
   padding-top: 30px;
@@ -16,7 +13,7 @@
   padding-left: 0%;
   text-align: center;
   border-radius: 5px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   outline: none;
 }
 .jm-input-item {
@@ -26,7 +23,7 @@
   font-size: 17px;
   color: #888;
   border-radius: 5px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   outline: none;
 }
 .jm-contact-us-form textarea {
