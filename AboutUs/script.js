@@ -3,16 +3,18 @@
 //and i decided to save to e new attribute. Then i search the floor because when the number is decimal I need to show only the number before the point
 //and that number i get as a floor. i show the floored value, which now is clear without decimals in the inner text of the 
 //element with class .counter, but for the next recursive call of the function I got the decimal value for every counter element stored in the attribute
-//which i use to calculate the increment for the next step till i reach the target 
+//which i use to calculate the increment for the next step till i reach the target. The speed is now an attribute which can be set from the
+//html and can be made custom for costumers to choose whether they like slower. As number is bigger, the speed of the counter is slower. 
 const DATA_DOUBLE_VALUE_ATTRIBUTE = 'data-double-value';
 const counters = document.querySelectorAll('.counter');
-const speed = 200;
+const counter = document.querySelector('.jm-about-us-counter');
+const SPEED = +counter.getAttribute('data-speed');
 
 counters.forEach(counter => {
     const updateCount = () => {
         const target = +counter.getAttribute('data-target');
         const count = +counter.getAttribute(DATA_DOUBLE_VALUE_ATTRIBUTE);         
-        const inc = (target / speed);
+        const inc = (target / SPEED);
 
         if(count < target) {
             const newValue = count + inc;
